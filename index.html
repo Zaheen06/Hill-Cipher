@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hill Cipher Encryptor</title>
+
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <h1>Hill Cipher Encryptor</h1>
+    <input type="text" id="plaintext" placeholder="Enter Plaintext">
+    
+    <h3>Enter 2x2 Key Matrix</h3>
+    <input type="number" id="key11" placeholder="Key[1][1]">
+    <input type="number" id="key12" placeholder="Key[1][2]">
+    <br>
+    <input type="number" id="key21" placeholder="Key[2][1]">
+    <input type="number" id="key22" placeholder="Key[2][2]">
+    
+    <br><button onclick="encryptHillCipher()">Encrypt</button>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
